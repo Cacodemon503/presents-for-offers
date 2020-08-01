@@ -2,7 +2,7 @@ import random
 
 
 def offer_cashback(name):
-    if name[0] == 'W' and name[1:].lower() in {'puntok'}:  # insert valid promocode
+    if name[0] == 'W' and name[1:].lower() in {''}:  # insert valid promocode
         lst = ['Подписка на "Okko"',
                'Подписка на "IVI"',
                'Подарочная карта "AMEDIATEKA"',
