@@ -79,5 +79,5 @@ def offer_cashback(name):
 if __name__ == "__main__":
     name = str(input('')).replace(' ', '')
     cashback = offer_cashback(name)
-    email_notification(name, cashback
+    email_notification(name, cashback)
     print(cashback)
